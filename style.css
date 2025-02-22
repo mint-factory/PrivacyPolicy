@@ -1,0 +1,76 @@
+/* General reset or normalization as needed */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: #333;
+    background-color: #f3f3f3;
+    line-height: 1.6;
+  }
+  
+  /* Header and Logo */
+  header {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .logo-container {
+    margin-right: 1rem;
+  }
+  
+  .logo {
+    max-width: 100px; /* adjust as needed */
+    height: auto;
+  }
+  
+  .site-title {
+    font-size: 1.5rem;
+    color: #006bff; /* a modern accent color */
+  }
+  
+  /* Main content sections */
+  main {
+    padding: 2rem;
+  }
+  
+  /* Intro section */
+  .intro {
+    margin-bottom: 2rem;
+  }
+  
+  /* Video sections */
+  .video-section {
+    margin-bottom: 3rem;
+  }
+  
+  .video-section h3 {
+    margin-bottom: 0.5rem;
+    color: #006bff;
+  }
+  
+  .video-container {
+    width: 100%;
+    max-width: 560px; /* same as the iframe width if you want consistent sizing */
+    margin: 0 auto 1rem;
+  }
+  
+  .video-description {
+    margin: 0 auto;
+    max-width: 560px;
+    text-align: left;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
